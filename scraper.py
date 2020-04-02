@@ -23,7 +23,7 @@ for row in table:
 	name = ' '.join(name.split())
 	org = row.find_all('div')[1].text
 	org = org[14:]
-	project = name + ' , ' + org + ' , ' + row.div.text + ' \n'
+	project = name + ',' + org + ',' + row.div.text + '\n'
 	f.write(project)
 
 print("Scraping is Complete!")
