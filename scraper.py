@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import re
 
 URL = "https://summerofcode.withgoogle.com/archive/2019/projects/"
 print("Give an URL to scrape!")
