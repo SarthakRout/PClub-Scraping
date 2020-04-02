@@ -10,7 +10,7 @@ def notofficial(x):
 			count = count + 1
 		else:
 			s = s + x[i]
-	if s.isalpha()==False and count==0 and s.islower() == True :
+	if s.isalpha()==False or count==0 or s.islower() == True :
 		return True
 	else:
 		return False
